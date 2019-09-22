@@ -1,0 +1,143 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+#content .container {
+  height: 100%;
+}
+#header,
+#theme,
+#widget {
+  background-color: #D1ECF1;
+}
+#enterprise {
+  background-color: #F4F6FA;
+}
+#enterprise h2,
+#price h2,
+#widget h2 {
+  padding-top: 5rem;
+}
+#header {
+  height: 10%;
+  font-size: 1rem;
+  color: #50C4E7;
+  letter-spacing: 1px;
+}
+#header .container {
+  height: 100%;
+}
+#header ul {
+  margin: 0;
+}
+#header li {
+  padding: 0;
+}
+.navbar {
+  margin: 0 2rem;
+}
+.navbar .nav-item {
+  margin: 0 1rem;
+}
+#theme .sum {
+  margin: 25% 0 10% 0;
+}
+#theme h1 {
+  margin-bottom: 8%;
+}
+#theme img {
+  margin: 5% 0;
+}
+#theme .btn {
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  background-color: #50C4E7;
+}
+#manage h3,
+#send h3 {
+  margin: 10% 0;
+}
+#manage img {
+  padding: 0;
+}
+#enterprise .content-enterprise {
+  padding: 3rem 1rem;
+  background-color: #fff;
+}
+#enterprise .content-enterprise p {
+  margin: 1rem 0;
+}
+#price .plans {
+  margin-bottom: 2rem;
+}
+#price .plans a:first-child {
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  background-color: #42B0F0;
+}
+#price .plans .bg-white {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 30px;
+}
+#widget a {
+  margin: 7% 0 10% 0;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+}
+#footer {
+  padding: 8% 0;
+}
+#footer .sum {
+  margin: 30px 0 40px 0;
+}
+#footer li {
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+.social-media li {
+  margin: 20px 4px 20px 0;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  background-color: #f2f2f2;
+}
+#bottom {
+  border-top: 1px solid #e3e3e5;
+}
+#bottom a {
+  color: #bababa;
+}
+#copyright {
+  padding: 25px 0;
+}
+#copyright p {
+  margin: 0;
+}
+#policy {
+  padding: 25px 0;
+}
+#policy a:first-child:after {
+  content: "|";
+  margin: 0 18px;
+}
+@media (min-width: 1024px) {
+  #theme,
+  #manage,
+  #send {
+    height: 90vh;
+  }
+}
+@media (min-width: 1440px) {
+  #theme,
+  #manage,
+  #send,
+  #enterprise,
+  #widget {
+    height: 100vh;
+  }
+  #price {
+    height: 140vh;
+  }
+}
+/*# sourceMappingURL=main.css.map */

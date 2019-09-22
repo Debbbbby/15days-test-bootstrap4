@@ -9,6 +9,34 @@
 	],
 "creatorBuild": "31491",
 "files": {
+	"/css/fontello.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/fontello-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/main.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/css/main.css.map",
+		"oF": 0
+		},
 	"/css/main.less": {
 		"aP": 0,
 		"bl": 0,
@@ -25,6 +53,48 @@
 		"rwU": 0,
 		"sI": 0,
 		"sU": 0
+		},
+	"/font/fontello.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/font/fontello.eot",
+		"oF": 0
+		},
+	"/font/fontello.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/font/fontello.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/font/fontello.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/font/fontello.ttf",
+		"oF": 0
+		},
+	"/font/fontello.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/font/fontello.woff",
+		"oF": 0
+		},
+	"/font/fontello.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/font/fontello.woff2",
+		"oF": 0
 		},
 	"/index.html": {
 		"cB": 0,
