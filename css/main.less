@@ -2,11 +2,14 @@
 @theme-color: #D1ECF1;
 @bg-gray: #F4F6FA;
 @nav-text: #50C4E7;
+@hover-border: #60fff9;
 img {
   max-width: 100%;
   height: auto;
 }
-
+body {
+  font-family: 'Mansalva', cursive;
+}
 //common & outline
  //note: 大多使用Bootstrap 4排版，則一開始不需先以lg的設備為主設定每一區塊高度，確認sm, md設備顯示正常後，再為大型設備做相對@media/RWD設定即可！
 #content .container {
@@ -45,6 +48,10 @@ img {
     margin: 0 1rem;
   }
 }
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
 //content
 #theme {
   .sum {
@@ -76,8 +83,13 @@ img {
   .content-enterprise {
     padding: 3rem 1rem;
     background-color: #fff;
+    transition: all .4s;
+    cursor: pointer;
     p {
       margin: 1rem 0;
+    }
+    &:hover {
+      border: 1px solid @hover-border;
     }
   }
 }
@@ -95,8 +107,17 @@ img {
     padding: .5rem 2rem;
     border-radius: 30px;
   }
+  .content-price {
+    transition: all .4s;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid @hover-border;
+    }
+  }
 }
 #widget {
+  background: url(https://picsum.photos/id/20/3670/2462) 50% no-repeat;
+  background-size: cover;
   a {
     margin: 7% 0 10% 0;
     padding: 1rem 2rem;

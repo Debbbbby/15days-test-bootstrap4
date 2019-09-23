@@ -2,6 +2,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+body {
+  font-family: 'Mansalva', cursive;
+}
 #content .container {
   height: 100%;
 }
@@ -39,6 +42,10 @@ img {
 .navbar .nav-item {
   margin: 0 1rem;
 }
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
 #theme .sum {
   margin: 25% 0 10% 0;
 }
@@ -63,9 +70,14 @@ img {
 #enterprise .content-enterprise {
   padding: 3rem 1rem;
   background-color: #fff;
+  transition: all 0.4s;
+  cursor: pointer;
 }
 #enterprise .content-enterprise p {
   margin: 1rem 0;
+}
+#enterprise .content-enterprise:hover {
+  border: 1px solid #60fff9;
 }
 #price .plans {
   margin-bottom: 2rem;
@@ -79,6 +91,17 @@ img {
   display: inline-block;
   padding: 0.5rem 2rem;
   border-radius: 30px;
+}
+#price .content-price {
+  transition: all 0.4s;
+  cursor: pointer;
+}
+#price .content-price:hover {
+  border: 1px solid #60fff9;
+}
+#widget {
+  background: url(https://picsum.photos/id/20/3670/2462) 50% no-repeat;
+  background-size: cover;
 }
 #widget a {
   margin: 7% 0 10% 0;
