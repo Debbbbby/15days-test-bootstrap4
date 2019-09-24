@@ -10,7 +10,8 @@ body {
 }
 #header,
 #theme,
-#widget {
+#widget,
+.navbar {
   background-color: #D1ECF1;
 }
 #enterprise {
