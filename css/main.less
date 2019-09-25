@@ -11,9 +11,13 @@ body {
   font-family: 'Mansalva', cursive;
 }
 //common & outline
- //note: 大多使用Bootstrap 4排版，則一開始不需先以lg的設備為主設定每一區塊高度，確認sm, md設備顯示正常後，再為大型設備做相對@media/RWD設定即可！
-#content .container {
-  height: 100%;
+#theme, #manage, #send, #enterprise, #price, #widget, #footer {
+  padding: 6% 0;
+}
+#header, #content {
+  .container {
+    height: 100%;
+  }
 }
 #header, #theme, #widget, .navbar {
   background-color: @theme-color;
@@ -21,36 +25,10 @@ body {
 #enterprise {
   background-color: @bg-gray;
 }
-#enterprise, #price, #widget {
-  h2 {
-    padding-top: 5rem;
-  }
-}
 //header
 #header {
-  height: 10%;
-  font-size: 1rem;
-  .container {
-    height: 100%
-  }
-  ul {
-    margin: 0;
-  }
-  li {
-    padding: 0;
-  }
   color: @nav-text;
   letter-spacing: 1px;
-}
-.navbar {
-  margin: 0 2rem;
-  .nav-item {
-    margin: 0 1rem;
-  }
-}
-.navbar-brand {
-  margin: 0;
-  padding: 0;
 }
 //content
 #theme {
@@ -69,19 +47,18 @@ body {
     background-color: @nav-text;
   }
 }
-#manage, #send {
-  h3 {
-    margin: 10% 0;
-  }
-}
 #manage {
   img {
     padding: 0;
   }
 }
 #enterprise {
+  .icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
   .content-enterprise {
-    padding: 3rem 1rem;
     background-color: #fff;
     transition: all .4s;
     cursor: pointer;
@@ -126,7 +103,6 @@ body {
 }
 // footer
 #footer {
-  padding: 8% 0;
   .sum {
     margin: 30px 0 40px 0;
   }
@@ -137,11 +113,14 @@ body {
 }
 .social-media {
   li {
-    margin: 20px 4px 20px 0;
+    background-color: #f2f2f2;
+    border-radius: 24px;
     height: 48px;
     width: 48px;
-    border-radius: 24px;
-    background-color: #f2f2f2;
+  }
+  a {
+    display: block;
+    font-size: 1.2rem;
   }
 }
 //bottom
@@ -151,31 +130,9 @@ body {
     color: #bababa;
   }
 }
-#copyright {
-  p {
-    margin: 0;
-  }
-  padding: 25px 0;
-}
 #policy {
-  padding: 25px 0;
   a:first-child:after {
     content: "|";
     margin: 0 18px;
-  }
-}
-// RWD
-
-@media (min-width: 1024px) {
-  #theme, #manage, #send {
-    height: 90vh;
-  }
-}
-@media (min-width: 1440px) {
-  #theme, #manage, #send, #enterprise, #widget {
-    height: 100vh;
-  }
-  #price {
-    height: 140vh;
   }
 }

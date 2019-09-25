@@ -5,6 +5,16 @@ img {
 body {
   font-family: 'Mansalva', cursive;
 }
+#theme,
+#manage,
+#send,
+#enterprise,
+#price,
+#widget,
+#footer {
+  padding: 6% 0;
+}
+#header .container,
 #content .container {
   height: 100%;
 }
@@ -17,35 +27,9 @@ body {
 #enterprise {
   background-color: #F4F6FA;
 }
-#enterprise h2,
-#price h2,
-#widget h2 {
-  padding-top: 5rem;
-}
 #header {
-  height: 10%;
-  font-size: 1rem;
   color: #50C4E7;
   letter-spacing: 1px;
-}
-#header .container {
-  height: 100%;
-}
-#header ul {
-  margin: 0;
-}
-#header li {
-  padding: 0;
-}
-.navbar {
-  margin: 0 2rem;
-}
-.navbar .nav-item {
-  margin: 0 1rem;
-}
-.navbar-brand {
-  margin: 0;
-  padding: 0;
 }
 #theme .sum {
   margin: 25% 0 10% 0;
@@ -61,15 +45,15 @@ body {
   padding: 1rem 2rem;
   background-color: #50C4E7;
 }
-#manage h3,
-#send h3 {
-  margin: 10% 0;
-}
 #manage img {
   padding: 0;
 }
+#enterprise .icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
 #enterprise .content-enterprise {
-  padding: 3rem 1rem;
   background-color: #fff;
   transition: all 0.4s;
   cursor: pointer;
@@ -109,9 +93,6 @@ body {
   padding: 1rem 2rem;
   border-radius: 30px;
 }
-#footer {
-  padding: 8% 0;
-}
 #footer .sum {
   margin: 30px 0 40px 0;
 }
@@ -120,11 +101,14 @@ body {
   font-size: 1.1rem;
 }
 .social-media li {
-  margin: 20px 4px 20px 0;
+  background-color: #f2f2f2;
+  border-radius: 24px;
   height: 48px;
   width: 48px;
-  border-radius: 24px;
-  background-color: #f2f2f2;
+}
+.social-media a {
+  display: block;
+  font-size: 1.2rem;
 }
 #bottom {
   border-top: 1px solid #e3e3e5;
@@ -132,36 +116,8 @@ body {
 #bottom a {
   color: #bababa;
 }
-#copyright {
-  padding: 25px 0;
-}
-#copyright p {
-  margin: 0;
-}
-#policy {
-  padding: 25px 0;
-}
 #policy a:first-child:after {
   content: "|";
   margin: 0 18px;
-}
-@media (min-width: 1024px) {
-  #theme,
-  #manage,
-  #send {
-    height: 90vh;
-  }
-}
-@media (min-width: 1440px) {
-  #theme,
-  #manage,
-  #send,
-  #enterprise,
-  #widget {
-    height: 100vh;
-  }
-  #price {
-    height: 140vh;
-  }
 }
 /*# sourceMappingURL=main.css.map */
